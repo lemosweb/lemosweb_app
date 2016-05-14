@@ -1,0 +1,22 @@
+{
+    "name": "lemosweb",
+    "email": "daniel@lemosweb.com",
+    
+    "require" : {"php" : ">=5.3"},
+    
+    "minimum-stability" : "alpha",
+    
+    "authors" : [
+        {
+            "name" : "Daniel Lemos",
+            "email" : "daniel@lemosweb.com.br"
+        }
+    ],
+    "autoload" : {
+        "psr-0" : {
+            "lemosweb" : "vendor",
+            "App" : "/"
+        }
+    },
+    "config" : {"bin-dir" : "bin"}
+}
