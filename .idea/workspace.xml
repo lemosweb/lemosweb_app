@@ -25,8 +25,8 @@
       <file leaf-file-name="Table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/lemosweb/DB/Table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-54.666668">
-              <caret line="97" column="7" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding>
                 <marker date="1463359295645" expanded="true" signature="226:240" placeholder="select * fro..." />
                 <marker date="1463359295645" expanded="true" signature="360:401" placeholder="select * fro..." />
@@ -120,10 +120,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Init.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Init.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30508474">
+            <state vertical-scroll-proportion="-6.6666665">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#24#52#0#PHP" expanded="true" />
@@ -132,11 +132,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="artigos.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Views/artigos/artigos.phtml">
+      <file leaf-file-name="ConnectDB.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/lemosweb/DB/ConnectDB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8518518">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.36610168">
+              <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -178,7 +178,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/App/Models/Artigo.php" />
-        <option value="$PROJECT_DIR$/vendor/lemosweb/DB/ConnectDB.php" />
         <option value="$PROJECT_DIR$/vendor/lemosweb/DI/Container.php" />
         <option value="$PROJECT_DIR$/vendor/lemosweb/Helper/Upload.php" />
         <option value="$PROJECT_DIR$/vendor/lemosweb/Helpers/Upload.php" />
@@ -202,6 +201,7 @@
         <option value="$PROJECT_DIR$/vendor/lemosweb/autsession/Session.php" />
         <option value="$PROJECT_DIR$/App/Controllers/Index.php" />
         <option value="$PROJECT_DIR$/App/Init.php" />
+        <option value="$PROJECT_DIR$/vendor/lemosweb/DB/ConnectDB.php" />
       </list>
     </option>
   </component>
@@ -293,6 +293,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lemosweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lemosweb_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lemosweb_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lemosweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -789,13 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/lemosweb/DB/ConnectDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/lemosweb/Helpers/Upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5186441">
@@ -854,26 +869,6 @@
         <state vertical-scroll-proportion="-1.8518518">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/lemosweb/DB/Table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-54.666668">
-          <caret line="97" column="7" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
-          <folding>
-            <marker date="1463359295645" expanded="true" signature="226:240" placeholder="select * fro..." />
-            <marker date="1463359295645" expanded="true" signature="360:401" placeholder="select * fro..." />
-            <marker date="1463359295645" expanded="true" signature="360:402" placeholder="select * fro..." />
-            <marker date="1463359295645" expanded="true" signature="360:405" placeholder="select * fro..." />
-            <marker date="1463359295645" expanded="true" signature="630:673" placeholder="delete from ..." />
-            <marker date="1463359295645" expanded="true" signature="1070:1100" placeholder="insert into ..." />
-            <marker date="1463359295645" expanded="true" signature="1070:1109" placeholder="insert into ..." />
-            <marker date="1463359295645" expanded="true" signature="1070:1121" placeholder="insert into ..." />
-            <marker date="1463359295645" expanded="true" signature="1070:1134" placeholder="insert into ..." />
-            <marker date="1463359295645" expanded="true" signature="1070:1137" placeholder="insert into ..." />
-            <marker date="1463359295645" expanded="true" signature="1510:1581" placeholder="insert into ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -941,11 +936,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30508474">
+        <state vertical-scroll-proportion="-6.6666665">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#24#52#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/lemosweb/DB/Table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <marker date="1463359295645" expanded="true" signature="226:240" placeholder="select * fro..." />
+            <marker date="1463359295645" expanded="true" signature="360:401" placeholder="select * fro..." />
+            <marker date="1463359295645" expanded="true" signature="360:402" placeholder="select * fro..." />
+            <marker date="1463359295645" expanded="true" signature="360:405" placeholder="select * fro..." />
+            <marker date="1463359295645" expanded="true" signature="630:673" placeholder="delete from ..." />
+            <marker date="1463359295645" expanded="true" signature="1070:1100" placeholder="insert into ..." />
+            <marker date="1463359295645" expanded="true" signature="1070:1109" placeholder="insert into ..." />
+            <marker date="1463359295645" expanded="true" signature="1070:1121" placeholder="insert into ..." />
+            <marker date="1463359295645" expanded="true" signature="1070:1134" placeholder="insert into ..." />
+            <marker date="1463359295645" expanded="true" signature="1070:1137" placeholder="insert into ..." />
+            <marker date="1463359295645" expanded="true" signature="1510:1581" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/lemosweb/DB/ConnectDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36610168">
+          <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>
