@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Atualiza Artigo</title>
+</head>
+<body>
+
+<h1>Atualizar  Artigo</h1>
+
+<a href="/">Home</a>
+<a href="/artigos/lista">Lista Artigos</a>
+<a href="/artigos/cadastrar"></a>
+
+<hr>
+
+<form action="" method="post" enctype="multipart/form-data">
+
+    <fieldset>
+        <legend>Atualizar Artigo</legend>
+
+
+
+        <label for="titulo">Titulo: </label>
+        <input type="text" name="titulo" value="<?= $this->view->registro['titulo'] ?>">
+
+        <label for="titulo">Artigo: </label>
+        <input type="text" name="artigo" value="<?= $this->view->registro['artigo'] ?>">
+
+
+        <input type="submit" value="Cadastrar">
+
+
+    </fieldset>
+
+</form>
+
+
+
+<hr>
+<?php var_dump($this->view->id); ?>
+
+
+</body>
+</html>

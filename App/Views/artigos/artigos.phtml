@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Artigos</title>
+</head>
+<body>
+
+<h1>Atualizar  Artigo</h1>
+
+<a href="/">Home</a>
+<a href="/artigos/cadastrar">Cadastrar Novo Artigo</a>
+
+<hr>
+
+<table border = 1>
+    <tr>
+        <th>titulo</th>
+        <th>Artigo</th>
+        <th>Atualizar</th>
+        <th>Excluir</th>
+    </tr>
+
+
+      <?php foreach($this->view->todos as $artigo): ?>
+      <tr>
+        <td><?= $artigo['titulo'] ?></td>
+        <td><?= $artigo['artigo'] ?></td>
+        <td><a href="/artigos/atualiza?id=<?= $artigo['id'] ?>">Editar</a></td>
+        <td><a href="/artigos/lista?del=<?= $artigo['id'] ?>">Excluir</a></td>
+      </tr>
+      <?php endforeach; ?>
+
+</table>
+</body>
+</html>

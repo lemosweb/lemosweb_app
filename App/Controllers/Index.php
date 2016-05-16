@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use lemosweb\Controller\Action;
 use \lemosweb\DI\Container;
-use App\Models\Login;
+use lemosweb\autsession\Login;
 
 class Index extends Action
 {

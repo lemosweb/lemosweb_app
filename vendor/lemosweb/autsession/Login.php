@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Models;
+namespace lemosweb\autsession;
 
 
 use lemosweb\DB\ConnectDB;
