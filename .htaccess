@@ -1,5 +1,5 @@
 AddHandler php55-script .php
-suPHP_ConfigPath /home/lemosweb1/
+/home/lemosweb1/
 RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteCond %{SCRIPT_FILENAME} !-d

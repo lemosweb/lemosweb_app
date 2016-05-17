@@ -10,7 +10,7 @@ use lemosweb\DI\Container;
 class Artigos extends Action
 {
 
-    public function artigos()
+    public function index()
     {
         $listaArtigos = Container::getClass('Artigo');
 
@@ -27,7 +27,7 @@ class Artigos extends Action
         $this->view->todos = $todos;
 
 
-        $this->render('artigos');
+        $this->render('index');
     }
 
     public function cadastrar()
@@ -61,7 +61,7 @@ class Artigos extends Action
 
         if(empty($id) && !$buscaArtigo->find($id)){
 
-            $this->artigos();
+            $this->index();
 
         }else{
 
@@ -77,7 +77,7 @@ class Artigos extends Action
 
                  $buscaArtigo->update($id, $inputVars);
 
-                $this->artigos();
+                $this->index();
             }else{
 
                 $this->render('atualiza');

@@ -12,7 +12,7 @@ class ConnectDB {
     {
         
         try {
-            self::$db = new \PDO("mysql:host=localhost;dbname=mvc","root","");
+            self::$db = new \PDO("mysql:host=lemosweb.mysql.dbaas.com.br;dbname=lemosweb","lemosweb","manosgana1");
             self::$db->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
         } catch (Exception $e) {
             echo $e->getCode();

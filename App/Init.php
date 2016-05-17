@@ -19,10 +19,12 @@ class Init extends Bootstrap{
        $route['logout']  = array('route' => '/logout', 'controller' => 'index', 'action' => 'logout');
 
        $route['admin']  = array('route' => '/admin', 'controller' => 'index', 'action' => 'admin');
+
+       $route['artigos'] = array('route' => '/artigos', 'controller' => 'artigos', 'action' => 'index');
        
        $route['cadastrar']  = array('route' => '/artigos/cadastrar', 'controller' => 'artigos', 'action' => 'cadastrar');
 
-       $route['artigos'] = array('route' => '/artigos/lista', 'controller' => 'artigos', 'action' => 'artigos');
+
 
        $route['atualizaartigos'] = array('route' => '/artigos/atualiza', 'controller' => 'artigos', 'action' => 'atualiza');
 
